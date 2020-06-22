@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basic JavaScript Part 2 Exercise 1</title>
+  </head>
+  <body>
+    <h1>Basic JavaScript Part 2 Exercise 1</h1>
+    <p>ระบบ Log In</p>
+  </body>
+  <script>
+    let login = prompt("Username");
+
+    if (login == "Admin") {
+      let password = prompt("Password");
+
+      if (password == "codecamp#6") {
+        alert("ยินดีต้อนรับ");
+      } else if (!password) {
+        alert("ยกเลิก");
+      } else {
+        alert("รหัสผ่านผิด");
+      }
+    } else if (!login) {
+      alert("ยกเลิก");
+    } else {
+      alert("ฉันไม่รู้จักคุณ");
+    }
+  </script>
+</html>

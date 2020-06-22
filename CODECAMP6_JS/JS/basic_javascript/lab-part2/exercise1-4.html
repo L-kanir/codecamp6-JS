@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basic JavaScript Part 2 Exercise 1</title>
+  </head>
+  <body>
+    <h1>Basic JavaScript Part 2 Exercise 1</h1>
+    <p>alert "First" คำสั่งเดียวที่แสดง</p>
+    <p>NOT alert เพราะใช้ && ถ้าตัวใดตัวหนึ่ง fasle ถือว่า false</p>
+    <p>
+      NOT alert ถึงแม้ว่าเป็น || แต่มีตัวที่ใช้ && ในนั้นซึ่งมีค่าเป็น false
+      อยุ่ด้วย
+    </p>
+  </body>
+  <script>
+    if (-1 || 0) {
+      alert("First");
+    }
+    if (-1 && 0) {
+      alert("Second");
+    }
+    if (null || (-1 && 0)) {
+      alert("Third");
+    }
+  </script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basic JavaScript Exercise 6</title>
+  </head>
+  <body>
+    <h1>Basic JavaScript Exercise 6</h1>
+  </body>
+  <script>
+    let totalPoint = prompt("Please type your total points");
+    let message;
+
+    if (isNaN(totalPoint)) {
+      message = "That is not a number";
+    } else if (totalPoint > 100) {
+      message = "Full point is only 100, type again";
+    } else if (totalPoint >= 80) {
+      message = "A, Perfect Score!";
+    } else if (totalPoint >= 70) {
+      message = "B, Great!";
+    } else if (totalPoint >= 60) {
+      message = "C, Good Job!";
+    } else if (totalPoint >= 50) {
+      message = "D, Not bad!";
+    } else {
+      message = "F, Try again next time?";
+    }
+    //Ternary Operator
+    //message =
+    //totalPoint >= 80
+    //? "A"
+    //: totalPoint >= 70
+    //? "B"
+    //: totalPoint >= 60
+    //? "C"
+    //: totalPoint >= 50
+    //? "D"
+    //: totalPoint < 50
+    //? "F"
+    //: "Type Again";
+    alert(message);
+  </script>
+</html>

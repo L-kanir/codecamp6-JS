@@ -1,0 +1,22 @@
+// 2. จงคำนวณค่าเปรียบเทียบต่อไปนี้ และ คอมเม้นตอบด้านหลังเหมือนข้างบน
+    5 >= 1 // ตอบ true
+    0 === 1 // ตอบ false
+    4 <= 1 // ตอบ false
+    1 != 1 // ตอบ false
+    1 == "1" // ตอบ true
+    1 === "1" // ตอบ false
+    "2" == "2" // ตอบ true
+    "2" === "2" // ตอบ true
+    "12" !== 12 // ตอบ true
+    "15" != 15 // ตอบ true
+    "A" > "B" // ตอบ false
+    "B" < "C" // ตอบ true
+    "a" > "A" // ตอบ true
+    "b" < "A" // ตอบ false
+    "bee" > "bbe" // ตอบ true
+    "BeE" < "Bee" // ตอบ true
+    "SonTer" > "Soncom" // ตอบ false
+    "circle" > "circles" // ตอบ false
+    "NaRuTo" < "nArUtO" // ตอบ true
+    true === false // ตอบ false
+    true != true // ตอบ false
